@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Online Portfolio </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+	  <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+	  
+	 <link rel="stylesheet" href="sass/textstyle.css"> 
+	  
+	  
+	  <! slider plugin >
+	  
+	  <link rel="stylesheet" type="text/css" href="css/imgslider.min.css">
+		<script type="text/javascript" src="js/imgslider.min.js"></script>
+	  
+	  <! lightbox plugin >
+	  
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+	  
+	  
+
+	  
+	  
+    
+  </head>
+  <body >
+	  
+	  <! scroll animation>
+	  
+	  <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+	  
+	  
+	  
+	  
+	  
+  
+  <div class="site-wrap"  id="home-section">
+
+	   <div class="col-12 text-center" >
+          <h1 class="section-title"> Portfolio</h1>
+          </div> 
+   
+   
+    <div class="container d-none d-lg-block">
+      <div class="row">
+       
+      </div>
+    </div>
+    <header >
+
+<nav class="navbar navbar-light navbar-expand-md bg-white justify-content-center">
+   
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+        <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item active">
+                <a class="nav-link" href="#drone">Meine Drohne </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#images">Galerie</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#cc">Color Grading</a> 
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" href="#contact">Kontakt</a> 
+            </li>
+        </ul>
+       
+    </div>
+</nav>
+      
+    </header>
+    
+
+    <div class="site-blocks-cover">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-md-12" style="position: relative;" data-aos="fade-up">
+            
+            
+
+            <div class="row mb-4">
+              <div class="col-lg-4 mr-auto">
+                <h1>Fabian Schwarz</h1>
+                <p class="mb-5">Herzlich willkommen auf meinem online Portfolio</p>
+              
+              </div>
+              
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+	  
+	  
+
+	<div id="drone"></div>
+    
+    <div  class="feature-big">
+      <div  class="container" data-aos="fade-up">
+        <div class="row mb-5 site-section border-bottom">
+          <div class="col-lg-7">
+            <img src="img/mavic-2-pro-dji-kameradrohne-multicopter-002.jpg" alt="Image" class="img-fluid" data-aos="fade-up">
+          </div>
+          <div  class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">Meine Drohne</h2>
+            <p class="fliesstext1">Zurzeit verwende ich die DJI Mavic pro gen 1. Besonders aufgrund ihres leichten Gewichtes eignet sie sich gut für Reisen. </p>
+           
+            <p class="fliesstext2">DIe Kamera verfügt über eine 4K Auflösung bei 50 FPS </p>
+          </div>
+        </div>
+
+       
+      </div>
+    </div>
+
+	  
+    
+    
+
+	  
+	   
+	  
+
+    <div class="site-section " id="gallery" data-aos="fade-up">
+      <div id="images" class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Galerie</h2>
+          </div>
+       <div class="row align-items-center justify-content-center">
+		  
+			<a class="sliderimg" data-fancybox="gallery" href="img/1.jpg"><img width="80%" src="img/1.jpg"></a>
+			<a class="sliderimg" data-fancybox="gallery" href="img/39335951531_9ae6454e0c_b.jpg" ><img width="80%" src="img/39335951531_9ae6454e0c_b.jpg"></a>
+		   <a class="sliderimg" data-fancybox="gallery" href="img/drone.jpg"><img width="80%" src="img/drone.jpg"></a>
+			<a class="sliderimg" data-fancybox="gallery" href="img/46aP2QbqUqBqwzwxM6L1P6uLNceBDDCM9B9VcBWQgAHpWx9ojCibT7eKwQy2Mvu3McrFTufTHZLabsyqrZwhjCd39TAW.png" ><img width="80%" src="img/46aP2QbqUqBqwzwxM6L1P6uLNceBDDCM9B9VcBWQgAHpWx9ojCibT7eKwQy2Mvu3McrFTufTHZLabsyqrZwhjCd39TAW.png"></a>
+		   <a class="sliderimg" data-fancybox="gallery" href="img/desert-orange-hills-drone-footage-085662584_prevstill.jpeg"><img width="80%" src="img/desert-orange-hills-drone-footage-085662584_prevstill.jpeg"></a>
+			<a class="sliderimg" data-fancybox="gallery" href="img/eyeem-122848570.jpg"><img width="80%" src="img/eyeem-122848570.jpg"></a>
+			  
+			</div>
+			
+		  </div>
+		  
+      </div>
+     
+    </div>
+
+    <div class="site-section" id="cc" data-aos="fade-up">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+			  
+			  
+			  
+			<h2 class="section-title mb-3">Color Grading</h2>
+			
+			
+		</div>
+		
+			  
+			  
+            
+          </div>
+        </div>
+
+        <div class="row">
+			
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+            <div class="mainDiv" >
+			
+			<div class="slider responsive">
+				<div class="left image">
+					<img src="./img/before.jpg"/>
+				</div>
+				<div class="right image">
+					<img src="./img/after1.jpg"/>
+				</div>
+			</div>
+			
+			
+		
+			</div>
+              <h2 class="text-center"> Sättigung </h2>
+            </div> 
+          </div>
+			
+           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+               <div class="mainDiv" >
+			
+			<div class="slider responsive">
+				<div class="left image">
+					<img src="./img/before.jpg"/>
+				</div>
+				<div class="right image">
+					<img src="./img/after2.jpg"/>
+				</div>
+			</div>
+			
+			
+		
+			</div>
+              <h2 class="text-center"> Kontrast </h2>
+            </div> 
+          </div>
+			
+			  <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div >
+               <div class="mainDiv" >
+			
+			<div class="slider responsive">
+				<div class="left image">
+					<img src="./img/before.jpg"/>
+				</div>
+				<div class="right image">
+					<img src="./img/after3.jpg"/>
+				</div>
+			</div>
+			
+			
+		
+			</div>
+              <h2 class="text-center subtitle"> Farbton </h2>
+            </div> 
+          </div>
+          <script type="text/javascript">
+			$('.slider').slider();
+		</script>
+        </div>
+      </div>
+    
+	
+
+    <div class="site-section bg-light" id="contact">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Kontakt</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-7 mb-5">
+
+			 <form action=  "kontakt/run.php"  method="get" >
+	
+
+<ul class="formular">
+
+	<li class="titel">
+		<label class="anrede" for="select_id">Anrede</label>
+		
+		<select class="wmfg_select" name="anrede">
+			
+			<option value="Frau">Frau</option>
+			<option value="Herr">Herr</option>
+		</select>
+	
+	</li>
+	
+	<li>
+	<label class="fullname" for="select_id">Name</label>
+		<input name="fullname"> </input>
+		
+	</li>
+
+	<li class="sprache">
+		<label class="wmfg_label">Sprache</label>
+		<table class="wmfg_answers">
+			<tr class="wmfg_a">
+				<td class="wmfg_a_td"><input type="radio" class="wmfg_radio" name="language" value="Deutsch" /></td>
+				<td><label class="wmfg_label_a" for="radio_1">Deutsch</label></td>
+			</tr>
+			<tr class="wmfg_a">
+				<td class="wmfg_a_td"><input type="radio" class="wmfg_radio" name="language" value="Englisch" /></td>
+				<td><label class="wmfg_label_a" for="radio_2">English</label></td>
+			</tr>
+			<tr class="wmfg_a">
+				<td class="wmfg_a_td"><input type="radio" class="wmfg_radio" name="language" value="Französisch" /></td>
+				<td><label class="wmfg_label_a" for="radio_3">Francais</label></td>
+			</tr>
+		</table>
+	</li>
+
+	<li class="wmfg_q">
+		<label class="wmfg_label" for="text_id">E-Mail Adresse</label>
+		<input type="text" class="wmfg_text" name="email" id="text_id" value="" />
+	</li>
+
+	<li class="wmfg_q">
+		<label class="wmfg_label">Kontaktgrund</label>
+		<table class="wmfg_answers">
+			<tr class="wmfg_a">
+				<td class="wmfg_a_td"><input type="checkbox" class="wmfg_checkbox" name="checkbox_1" id="checkbox_1" value="Frage" /></td>
+				<td><label class="wmfg_label_a" for="checkbox_1">Frage</label></td>
+			</tr>
+			<tr class="wmfg_a">
+				<td class="wmfg_a_td"><input type="checkbox" class="wmfg_checkbox" name="checkbox_2" id="checkbox_2" value="Anfrage für Zusammenarbeit" /></td>
+				<td><label class="wmfg_label_a" for="checkbox_2">Anfrage für Zusammenarbeit</label></td>
+			</tr>
+			<tr class="wmfg_a">
+				<td class="wmfg_a_td"><input type="checkbox" class="wmfg_checkbox" name="checkbox_3" id="checkbox_3" value="Sonstiges" /></td>
+				<td><label class="wmfg_label_a" for="checkbox_3">Sonstiges</label></td>
+			</tr>
+		</table>
+	</li>
+
+	<li class="wmfg_q">
+		<label class="wmfg_label" for="textarea_id">Genauere Beschreibung</label>
+		<textarea class="wmfg_textarea" name="description" id="textarea_id" style="height:80px"></textarea>
+	</li>
+
+	<li class="wmfg_q">
+		<input type="submit" class="wmfg_btn" name="submit_name" id="submit_id" value="Senden" />
+	</li>
+
+</ul>
+
+</form>
+           
+          </div>
+        
+        </div>
+        
+      </div>
+	
+</div>
+    
+  </div> <!-- .site-wrap -->
+
+  	  <script src="js/jquery-3.3.1.min.js"></script>
+	  
+	  
+  <script src="js/popper.min.js"></script>
+	  
+  <script src="js/bootstrap.min.js"></script>
+	  
+  <script src="js/aos.js"></script>
+  
+  <script src="js/main.js"></script>
+	  
+	  
+    
+  </body>
+</html>
